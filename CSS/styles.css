@@ -1,0 +1,197 @@
+.Top_Container {
+    background-color: #E4F9F5;
+    padding-top: 50px;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    margin-top: 50px auto 0 auto;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    color: #12b4b4;
+}
+
+h2{
+    font-family:'Montserrat', sans-serif;
+    color: #12b4b4;
+    line-height: 2;
+}
+
+h3{
+    font-family:'Montserrat' sans-serif;
+    color: #12b4b4;
+}
+
+p{
+    font-size: 1.5rem;    /* 1rem = 16px */
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.Mid {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: relative;   /*Here overlapping takes place*/
+    top: 100px;
+}
+
+.Next {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    position: absolute;   /*Overlapping does not take place*/
+    left: 200px;
+}
+
+.Last {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.bottom-cloud{
+    position: absolute;
+}
+
+.top-cloud{
+    position: relative;
+    left: 400px;
+    top: 10px;
+}
+
+.contact-me{
+    margin-top: 20px;
+}
+
+.bottom-container{
+    margin: 50px auto 50px auto;
+    background-color: #81d2d4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.computer{
+   float: left;           /*If we need to float only the heading, then we write => clear: left;*/
+   padding-right: 40px;      
+}
+
+.chillies{
+    float: right;
+    padding-left: 40px;
+}
+
+/*  .Lorem{
+    clear: left;
+} */
+
+
+.shubham {
+    padding-top: 30px;
+}
+
+hr{
+    background-color: white;  
+    border-style: none; 
+    height: 0px;
+    width: 5%;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    margin: 100px auto 100px auto;
+}
+
+span{
+    text-align: center;
+}
+
+.footer-link{
+    color: #064c4e;
+    font-size: 1.5rem;
+    padding-right: 100px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: lightgreen;
+}
+
+.BUTTON_QPI {
+    background: #3DF670;
+    background-image: -webkit-linear-gradient(top, #3DF670, #0B5724);
+    background-image: -moz-linear-gradient(top, #3DF670, #0B5724);
+    background-image: -ms-linear-gradient(top, #3DF670, #0B5724);
+    background-image: -o-linear-gradient(top, #3DF670, #0B5724);
+    background-image: linear-gradient(to bottom, #3DF670, #0B5724);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 0px;
+    line-height: 0px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+   
+    font-size: 21px;
+    font-weight: 100;
+    padding: 20px;
+    box-shadow: 0px 4px 0px 2px #000000;
+    -webkit-box-shadow: 0px 4px 0px 2px #000000;
+    -moz-box-shadow: 0px 4px 0px 2px #000000;
+    text-shadow: 1px 1px 5px #000000;
+    border: solid #0D772A 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    }
+    
+.BUTTON_QPI:hover {
+    border: solid #0D772A 1px;
+    background: #0B5724;
+    background-image: -webkit-linear-gradient(top, #0B5724, #3DF670);
+    background-image: -moz-linear-gradient(top, #0B5724, #3DF670);
+    background-image: -ms-linear-gradient(top, #0B5724, #3DF670);
+    background-image: -o-linear-gradient(top, #0B5724, #3DF670);
+    background-image: linear-gradient(to bottom, #0B5724, #3DF670);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    }
+
+.amet {
+    width: 25%;
+    margin: auto;
+}
+
+em {
+    display: block;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.testimonial-image {
+    height: 500px; 
+    width: 1000px
+}
+
+
+/* font-family: 'Merriweather', serif;
+   font-family: 'Montserrat', sans-serif;       While using google fonts, use link tag in html code, then use the font family associated with it.
+   font-family: 'Sacramento', cursive; 
+   
+   1em = 1rem = 16px*/
